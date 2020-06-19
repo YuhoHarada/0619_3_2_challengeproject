@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(../img/ilustracion1.png) top right/60% no-repeat;
+}
+
+/* ************** header ************** */
+#logo{
+    position: fixed;
+    width: 50px;
+    top: 20px;
+    left: 2%;
+}
+
+header{
+    padding: 20px 0 0 calc(2% + 70px);
+}
+
+/* ************** hero ************** */
+#hero{
+    background: url(../img/ilustracion_people.png) right -100px/60% no-repeat;
+    padding: 20vh 50% 200px 7%;
+}
+
+#hero h1{
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+#hero p:first-of-type{
+    display: inline;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+#hero img{
+    width: 30px;
+}
+
+#hero p:last-of-type{
+    margin-top: 150px;
+    color: #ff3571;
+    font-weight: 700;
+}
+
+/* ************** image ************** */
+#images img{
+    display: block;
+    width: 100%;
+}
+
+/* ************** idea ************** */
+#idea{
+    padding: 200px 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#idea div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    width: 40%;
+}
+
+#idea div h2{
+    font-size: 4em;
+}
+
+#idea div img{
+    width: 50px;
+}
+
+#idea p{
+    width: 55%;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+/* ************** learned ************** */
+#learned{
+    padding: 200px 7%;
+}
+
+#learned h2{
+    font-size: 4em;
+    width: 60%;
+}
+
+/* ************** point ************** */
+#point{
+    display: flex;
+    padding: 0 7% 200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#point>div{
+    display: flex;
+    align-items: flex-start;
+    width: 40%;
+    margin-bottom: 50px;
+    line-height: 2em;
+}
+
+#point div img{
+    width: 20px;
+}
+
+#point div div{
+    margin: 0 0 0 20px;
+}
+
+/* ************** letsgo ************** */
+#letsgo{
+    padding: 200px 7%;
+}
+
+#letsgo h2{
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#letsgo>p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 300;
+    line-height: 1.6em;
+}
+
+#letsgo article{
+    margin: 100px 0;
+}
+
+#letsgo article h3{
+    font-size: 5em;
+    color: #dddddd;
+    margin-bottom: 50px;
+}
+
+#letsgo article h4{
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+#letsgo article p{
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-bottom: 50px;
+}
+
+#letsgo article:nth-of-type(1){
+    background: url(../img/step01.png) left/contain no-repeat;
+    padding-left: 50%;
+}
+
+#letsgo article:nth-of-type(2){
+    background: url(../img/step02.png) right/contain no-repeat;
+    padding-right: 50%;
+}
+
+#letsgo article:nth-of-type(3){
+    background: url(../img/step03.png) left/contain no-repeat;
+    padding-left: 50%;
+}
+
+#letsgo article:nth-of-type(4){
+    background: url(../img/step04.png) right/contain no-repeat;
+    padding-right: 50%;
+}
+
+/* ************** subscribe ************** */
+#subscribe{
+    padding: 200px 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#subscribe h2{
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+#subscribe p{
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+#email{
+    background: #fff;
+    width: 50%;
+    margin: 0 auto 50px;
+    height: 3em;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2em;
+    box-shadow: 0 0 10px #dddddd;
+}
+
+#button{
+    width: 30%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    padding: 20px 0;
+    background: #ff3571;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* ************** footer ************** */
+footer{
+    padding: 0 7% 10px;
+    display: flex;
+    align-items: baseline;
+}
+
+footer img{
+    width: 25px;
+}
