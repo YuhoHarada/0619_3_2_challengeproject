@@ -26,6 +26,22 @@ header{
 #hero{
     background: url(../img/ilustracion_people.png) right -100px/60% no-repeat;
     padding: 20vh 50% 200px 7%;
+    animation: rotation 2s ease 0s infinite normal none running;
+}
+
+/* anime */
+@keyframes rotation{
+    0% {
+        background-position: right -100px;
+    }
+
+    50% {
+        background-position: right -50px;
+    }
+
+    100% {
+        background-position: right -100px;
+    }
 }
 
 #hero h1{
@@ -221,6 +237,10 @@ header{
     border: none;
     color: #fff;
     border-radius: 5px;
+}
+
+#button:hover{
+    background: linear-gradient(to right,#ff3571, #3C30FF);
 }
 
 /* ************** footer ************** */
